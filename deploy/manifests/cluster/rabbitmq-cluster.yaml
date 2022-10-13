@@ -1,0 +1,9 @@
+apiVersion: rabbitmq.com/v1beta1
+kind: RabbitmqCluster
+metadata:
+    name: hello-world
+    namespace: rabbit
+spec:
+#    replicas: 1
+#    imagePullSecrets: []
+    image: "rabbitmq:3.11"
